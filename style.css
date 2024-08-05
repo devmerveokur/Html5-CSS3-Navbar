@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-image: url("page.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+ .navbar{
+    height: 8.7vh;
+    width: 100%;
+    background-color: #171717;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+
+ a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.8s;
+ }
+
+ h3{
+    color: #F1BA3A;
+    cursor: pointer;
+    transition: 0.8s;
+ }
+
+ a:hover{
+    color: #F1BA3A;
+ }
+ h3:hover{
+    color: whitesmoke;
+ }
